@@ -1,0 +1,6 @@
+---
+- hosts: vro_appliances
+  become: no
+  gather_facts: False
+  roles:
+   - nmshadey.vmware_deploy_vro
